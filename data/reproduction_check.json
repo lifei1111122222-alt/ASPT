@@ -1,0 +1,26 @@
+{
+  "all_checks_passed": true,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "checks": [
+    {
+      "reference": "data/additional_controls/size_aware_local_control.json",
+      "reproduced_file": "reproduced/size_aware_local_control.json",
+      "numeric_fields_compared": 17721,
+      "maximum_absolute_difference": 0.0,
+      "max_difference_field": "/validation/original_fixed_local_saved_mean",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "reference": "data/additional_controls/matched_anchor_reparameterization.json",
+      "reproduced_file": "reproduced/anchor_reparameterization_control.json",
+      "numeric_fields_compared": 18520,
+      "maximum_absolute_difference": 0.0,
+      "max_difference_field": "/seed_aggregate_means/4",
+      "tolerance": 1e-12,
+      "passed": true
+    }
+  ],
+  "note": "Computed from the extracted published archives, without model-service calls or raw PartNet meshes. Only source-path/hash metadata, software/protocol metadata, and elapsed time are excluded from numeric comparison."
+}

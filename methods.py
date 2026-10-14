@@ -125,16 +125,11 @@ def _read_cache(path: Path, fingerprint: str) -> dict | None:
 
 
 def create_deepseek_client(api_key: str | None = None, base_url: str = "https://api.deepseek.com", timeout: float = 180.0):
-    """The key is never copied to a checkpoint or notebook output."""
+    """Use an explicit key or DEEPSEEK_API_KEY without storing the credential."""
+    key = api_key or os.environ.get("DEEPSEEK_API_KEY")
+    if not key:
+        raise ValueError("Missing API key: pass api_key or set DEEPSEEK_API_KEY.")
     from openai import OpenAI
-    key = "sk-6445b9e556d6489c8d0218fa70eafc9f"
-    if not key:
-        from getpass import getpass
-        key = getpass("DEEPSEEK_API_KEY（隐藏输入，仅保存在当前进程）：").strip()
-        if key:
-            os.environ["DEEPSEEK_API_KEY"] = key
-    if not key:
-        raise ValueError("缺少 DEEPSEEK_API_KEY")
     return OpenAI(api_key=key, base_url=base_url, timeout=timeout, max_retries=0)
 
 

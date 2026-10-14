@@ -1,0 +1,739 @@
+{
+  "dataset": "OpenWorld-120",
+  "version": 1,
+  "design": {
+    "categories": [
+      "Furniture",
+      "Vehicles",
+      "Tools",
+      "Electronics",
+      "Appliances",
+      "MechanicalComposite"
+    ],
+    "objects_per_category": 20,
+    "description_policy": "Free-form natural-language object descriptions; no GT 3D instance, no GT part inventory, no coordinates.",
+    "intended_use": "Formal open-world generalization benchmark for shared decomposition and representation comparison."
+  },
+  "objects": [
+    {
+      "object_id": "OW001",
+      "category": "Furniture",
+      "complexity": "simple",
+      "description": "A round café table with a single circular top supported by one central pedestal that widens into a flat base on the floor."
+    },
+    {
+      "object_id": "OW002",
+      "category": "Furniture",
+      "complexity": "simple",
+      "description": "A small wooden stool with a square seat and four straight legs attached underneath, with no backrest or arms."
+    },
+    {
+      "object_id": "OW003",
+      "category": "Furniture",
+      "complexity": "simple",
+      "description": "A wall shelf made from one horizontal board held by two triangular brackets fixed beneath its left and right sides."
+    },
+    {
+      "object_id": "OW004",
+      "category": "Furniture",
+      "complexity": "simple",
+      "description": "A basic bench with one long seat plank supported by two block-shaped legs placed near the ends."
+    },
+    {
+      "object_id": "OW005",
+      "category": "Furniture",
+      "complexity": "simple",
+      "description": "A narrow side table with a rectangular top, four slim legs, and a lower shelf spanning between the legs."
+    },
+    {
+      "object_id": "OW006",
+      "category": "Furniture",
+      "complexity": "medium",
+      "description": "An office chair with a padded seat, a separate backrest mounted behind it, two armrests, and a five-spoke wheeled base connected through a central column."
+    },
+    {
+      "object_id": "OW007",
+      "category": "Furniture",
+      "complexity": "medium",
+      "description": "A dining chair with a flat seat, four legs, and a tall back made from two vertical posts joined by several horizontal slats."
+    },
+    {
+      "object_id": "OW008",
+      "category": "Furniture",
+      "complexity": "medium",
+      "description": "A bedside cabinet with a rectangular body, one drawer near the top with a handle, an open shelf below it, and four short feet."
+    },
+    {
+      "object_id": "OW009",
+      "category": "Furniture",
+      "complexity": "medium",
+      "description": "A coffee table with an oval top supported by two curved side frames connected by a horizontal stretcher close to the floor."
+    },
+    {
+      "object_id": "OW010",
+      "category": "Furniture",
+      "complexity": "medium",
+      "description": "A writing desk with a wide tabletop, two drawer boxes under the right side, a left side panel, and a back crossbar connecting the supports."
+    },
+    {
+      "object_id": "OW011",
+      "category": "Furniture",
+      "complexity": "medium",
+      "description": "A freestanding bookshelf with two tall side panels, a top board, a bottom board, and four evenly spaced horizontal shelves inside."
+    },
+    {
+      "object_id": "OW012",
+      "category": "Furniture",
+      "complexity": "medium",
+      "description": "A park bench with a slatted seat and slatted backrest, both supported by two metal side frames that continue down to form the legs."
+    },
+    {
+      "object_id": "OW013",
+      "category": "Furniture",
+      "complexity": "medium",
+      "description": "A small armchair with one seat cushion, one back cushion, two thick side arms, and four short wooden legs beneath the frame."
+    },
+    {
+      "object_id": "OW014",
+      "category": "Furniture",
+      "complexity": "medium",
+      "description": "A TV stand with a long top surface, two side panels, a central divider, two open equipment shelves, and a low plinth base."
+    },
+    {
+      "object_id": "OW015",
+      "category": "Furniture",
+      "complexity": "complex",
+      "description": "A swivel recliner with a padded seat, articulated backrest, two armrests, a separate footrest panel connected at the front, and a circular pedestal base."
+    },
+    {
+      "object_id": "OW016",
+      "category": "Furniture",
+      "complexity": "complex",
+      "description": "A bunk bed with four tall corner posts, an upper and lower mattress frame, guard rails around the upper bed, and a ladder attached to one side."
+    },
+    {
+      "object_id": "OW017",
+      "category": "Furniture",
+      "complexity": "complex",
+      "description": "A modular sofa made from three seat sections, three back cushions, two end armrests, and a low common base, with a chaise extension attached to the left section."
+    },
+    {
+      "object_id": "OW018",
+      "category": "Furniture",
+      "complexity": "complex",
+      "description": "A wardrobe with two tall hinged doors, two handles, a main cabinet shell, an upper shelf, a hanging rail, and two drawers stacked at the bottom."
+    },
+    {
+      "object_id": "OW019",
+      "category": "Furniture",
+      "complexity": "complex",
+      "description": "A drafting table with a large tilted work surface hinged to a supporting frame, two side supports, a horizontal foot bar, and a lower cross brace."
+    },
+    {
+      "object_id": "OW020",
+      "category": "Furniture",
+      "complexity": "complex",
+      "description": "A rocking chair with a seat, tall backrest, two armrests, four short supports, and two long curved rockers running front to back beneath the supports."
+    },
+    {
+      "object_id": "OW021",
+      "category": "Vehicles",
+      "complexity": "simple",
+      "description": "A kick scooter with a long narrow deck, two wheels, a vertical steering column, and a horizontal handlebar at the top."
+    },
+    {
+      "object_id": "OW022",
+      "category": "Vehicles",
+      "complexity": "simple",
+      "description": "A simple hand cart with a flat rectangular platform, two large side wheels, and a U-shaped handle rising from the rear."
+    },
+    {
+      "object_id": "OW023",
+      "category": "Vehicles",
+      "complexity": "simple",
+      "description": "A skateboard with one flat deck, two axle trucks mounted underneath, and four wheels arranged as two pairs."
+    },
+    {
+      "object_id": "OW024",
+      "category": "Vehicles",
+      "complexity": "simple",
+      "description": "A small canoe with one elongated hull and two simple bench seats spanning across the interior."
+    },
+    {
+      "object_id": "OW025",
+      "category": "Vehicles",
+      "complexity": "simple",
+      "description": "A wheelbarrow with a deep tray, one front wheel, two long rear handles, and two support legs under the back of the tray."
+    },
+    {
+      "object_id": "OW026",
+      "category": "Vehicles",
+      "complexity": "medium",
+      "description": "A bicycle with a diamond-shaped frame, front and rear wheels, a front fork, handlebar, seat, crank assembly, and two pedals."
+    },
+    {
+      "object_id": "OW027",
+      "category": "Vehicles",
+      "complexity": "medium",
+      "description": "A motorcycle with two wheels, a central frame, fuel tank, seat, front fork with handlebar, and a compact engine block beneath the tank."
+    },
+    {
+      "object_id": "OW028",
+      "category": "Vehicles",
+      "complexity": "medium",
+      "description": "A compact car with a main body shell, four wheels, front hood, rear hatch, roof, and two side mirrors attached near the front doors."
+    },
+    {
+      "object_id": "OW029",
+      "category": "Vehicles",
+      "complexity": "medium",
+      "description": "A pickup truck with a passenger cab, separate open cargo bed, four wheels, front hood, and two side mirrors."
+    },
+    {
+      "object_id": "OW030",
+      "category": "Vehicles",
+      "complexity": "medium",
+      "description": "A city bus with a long body, six wheels, a front windshield, side windows, and two passenger doors on the right side."
+    },
+    {
+      "object_id": "OW031",
+      "category": "Vehicles",
+      "complexity": "medium",
+      "description": "A sailboat with a narrow hull, one vertical mast, a large triangular main sail, a smaller front sail, and a rudder at the stern."
+    },
+    {
+      "object_id": "OW032",
+      "category": "Vehicles",
+      "complexity": "medium",
+      "description": "A quadcopter drone with a central body, four arms extending outward, one motor at each arm end, four propellers, and a small camera mounted underneath."
+    },
+    {
+      "object_id": "OW033",
+      "category": "Vehicles",
+      "complexity": "medium",
+      "description": "A small helicopter with a cabin body, tail boom, landing skids, a large main rotor on top, and a smaller tail rotor."
+    },
+    {
+      "object_id": "OW034",
+      "category": "Vehicles",
+      "complexity": "medium",
+      "description": "A farm tractor with two large rear wheels, two smaller front wheels, an engine hood, driver seat, steering wheel, and rear hitch assembly."
+    },
+    {
+      "object_id": "OW035",
+      "category": "Vehicles",
+      "complexity": "complex",
+      "description": "A forklift with a wheeled chassis, enclosed driver area, vertical lifting mast at the front, a carriage sliding on the mast, and two long forks extending forward."
+    },
+    {
+      "object_id": "OW036",
+      "category": "Vehicles",
+      "complexity": "complex",
+      "description": "A tracked excavator with two crawler tracks, a rotating upper body, operator cabin, articulated boom, articulated stick, and a bucket at the end."
+    },
+    {
+      "object_id": "OW037",
+      "category": "Vehicles",
+      "complexity": "complex",
+      "description": "A fire truck with a long six-wheel chassis, front cab, rear equipment body with side compartments, and an extendable ladder assembly mounted on a rotating base."
+    },
+    {
+      "object_id": "OW038",
+      "category": "Vehicles",
+      "complexity": "complex",
+      "description": "A road bicycle with front and rear wheels, a lightweight frame, curved drop handlebar, saddle, crankset, pedals, chainring, and rear gear cluster."
+    },
+    {
+      "object_id": "OW039",
+      "category": "Vehicles",
+      "complexity": "complex",
+      "description": "A passenger airplane with a central fuselage, two main wings, two engines mounted under the wings, a vertical tail fin, two horizontal stabilizers, and landing gear assemblies."
+    },
+    {
+      "object_id": "OW040",
+      "category": "Vehicles",
+      "complexity": "complex",
+      "description": "A small articulated delivery robot with a four-wheel base, a box-shaped cargo compartment, a hinged top lid, a front sensor mast, and two side-mounted camera pods."
+    },
+    {
+      "object_id": "OW041",
+      "category": "Tools",
+      "complexity": "simple",
+      "description": "A hammer with a straight handle and a metal head fixed across the top, with a flat striking face on one side and a claw on the other."
+    },
+    {
+      "object_id": "OW042",
+      "category": "Tools",
+      "complexity": "simple",
+      "description": "A screwdriver with a long metal shaft inserted into a thick cylindrical handle and a flat blade at the opposite end."
+    },
+    {
+      "object_id": "OW043",
+      "category": "Tools",
+      "complexity": "simple",
+      "description": "A paint roller with a straight handle, a bent metal support arm, and a cylindrical roller mounted at the end of the arm."
+    },
+    {
+      "object_id": "OW044",
+      "category": "Tools",
+      "complexity": "simple",
+      "description": "A hand saw with a long toothed blade attached along one edge to a closed grip handle at the rear."
+    },
+    {
+      "object_id": "OW045",
+      "category": "Tools",
+      "complexity": "simple",
+      "description": "A simple wrench with one elongated metal body and an open jaw at each end."
+    },
+    {
+      "object_id": "OW046",
+      "category": "Tools",
+      "complexity": "medium",
+      "description": "A pair of pliers with two crossed handles joined at a central pivot and two gripping jaws extending beyond the pivot."
+    },
+    {
+      "object_id": "OW047",
+      "category": "Tools",
+      "complexity": "medium",
+      "description": "A cordless drill with a pistol-shaped body, battery pack under the handle, rotating chuck at the front, and a short drill bit held by the chuck."
+    },
+    {
+      "object_id": "OW048",
+      "category": "Tools",
+      "complexity": "medium",
+      "description": "A tape measure with a rectangular case, retractable measuring tape emerging from one side, a belt clip on the back, and a small lock slider on top."
+    },
+    {
+      "object_id": "OW049",
+      "category": "Tools",
+      "complexity": "medium",
+      "description": "A bench vise with a heavy base, fixed rear jaw, sliding front jaw, horizontal screw shaft, and a rotating handle through the screw hub."
+    },
+    {
+      "object_id": "OW050",
+      "category": "Tools",
+      "complexity": "medium",
+      "description": "A hand plane with a long flat base, front knob, rear handle, and an angled cutting blade clamped through the center of the body."
+    },
+    {
+      "object_id": "OW051",
+      "category": "Tools",
+      "complexity": "medium",
+      "description": "A soldering iron with a long insulated handle, narrow heated shaft, pointed metal tip, and a power cable leaving the rear of the handle."
+    },
+    {
+      "object_id": "OW052",
+      "category": "Tools",
+      "complexity": "medium",
+      "description": "A caulking gun with a long frame holding a cartridge, a rear plunger rod, pistol grip, and trigger mechanism beneath the frame."
+    },
+    {
+      "object_id": "OW053",
+      "category": "Tools",
+      "complexity": "medium",
+      "description": "A garden pruner with two curved cutting blades joined by a pivot and two separate handles extending backward from the joint."
+    },
+    {
+      "object_id": "OW054",
+      "category": "Tools",
+      "complexity": "medium",
+      "description": "A manual staple gun with a rectangular upper housing, a hinged squeeze handle above it, and a narrow staple outlet at the front."
+    },
+    {
+      "object_id": "OW055",
+      "category": "Tools",
+      "complexity": "complex",
+      "description": "A compound miter saw with a broad base, rotating turntable, vertical support arm, circular saw blade under a guard, motor housing, and a top operating handle."
+    },
+    {
+      "object_id": "OW056",
+      "category": "Tools",
+      "complexity": "complex",
+      "description": "A floor jack with a low wheeled chassis, pivoting lifting arm, round saddle at the top of the arm, hydraulic body, and a long removable pump handle."
+    },
+    {
+      "object_id": "OW057",
+      "category": "Tools",
+      "complexity": "complex",
+      "description": "A manual pipe cutter with a C-shaped frame, two guide rollers on one side, a cutting wheel opposite them, and a threaded adjustment knob."
+    },
+    {
+      "object_id": "OW058",
+      "category": "Tools",
+      "complexity": "complex",
+      "description": "A ratcheting socket wrench with a long handle, a circular ratchet head, a square drive protruding from the head, and a detachable socket fitted to the drive."
+    },
+    {
+      "object_id": "OW059",
+      "category": "Tools",
+      "complexity": "complex",
+      "description": "A portable circular saw with a motor housing, round blade partly enclosed by a guard, flat adjustable base plate, front grip, and rear trigger handle."
+    },
+    {
+      "object_id": "OW060",
+      "category": "Tools",
+      "complexity": "complex",
+      "description": "A folding multi-tool with two outer handle shells joined at pivots, plier jaws unfolding from the center, and several smaller blades and drivers stored inside the handles."
+    },
+    {
+      "object_id": "OW061",
+      "category": "Electronics",
+      "complexity": "simple",
+      "description": "A desktop monitor with a thin rectangular screen, narrow bezel, vertical support stem, and a flat rectangular base."
+    },
+    {
+      "object_id": "OW062",
+      "category": "Electronics",
+      "complexity": "simple",
+      "description": "A computer mouse with one rounded main shell, two top buttons, a central scroll wheel, and a cable leaving the front."
+    },
+    {
+      "object_id": "OW063",
+      "category": "Electronics",
+      "complexity": "simple",
+      "description": "A Wi-Fi router with a low rectangular body and four thin antennas attached along the rear edge."
+    },
+    {
+      "object_id": "OW064",
+      "category": "Electronics",
+      "complexity": "simple",
+      "description": "A compact webcam with a small camera body, circular lens in front, and a hinged mounting clip underneath."
+    },
+    {
+      "object_id": "OW065",
+      "category": "Electronics",
+      "complexity": "simple",
+      "description": "A desk microphone with a cylindrical microphone body held upright by a short yoke attached to a round base."
+    },
+    {
+      "object_id": "OW066",
+      "category": "Electronics",
+      "complexity": "medium",
+      "description": "A laptop with a thin base containing the keyboard and touchpad, plus a screen panel connected to the rear of the base by two hinges."
+    },
+    {
+      "object_id": "OW067",
+      "category": "Electronics",
+      "complexity": "medium",
+      "description": "A desktop computer tower with a rectangular case, front panel, side panel, rear panel, and two cooling fans mounted inside the case openings."
+    },
+    {
+      "object_id": "OW068",
+      "category": "Electronics",
+      "complexity": "medium",
+      "description": "A stereo speaker with a tall cabinet, one large woofer, one smaller tweeter above it, and a front grille frame around the drivers."
+    },
+    {
+      "object_id": "OW069",
+      "category": "Electronics",
+      "complexity": "medium",
+      "description": "A game controller with a central body, two hand grips, two analog sticks, a directional pad, and four face buttons."
+    },
+    {
+      "object_id": "OW070",
+      "category": "Electronics",
+      "complexity": "medium",
+      "description": "A tablet on a keyboard dock, with one thin display slab seated in a rear hinge slot of a flat keyboard base and a centered touchpad below the keys."
+    },
+    {
+      "object_id": "OW071",
+      "category": "Electronics",
+      "complexity": "medium",
+      "description": "A VR headset with a curved front visor, two side strap arms, a top strap, and two handheld controllers each with a grip and circular tracking ring."
+    },
+    {
+      "object_id": "OW072",
+      "category": "Electronics",
+      "complexity": "medium",
+      "description": "A small desktop printer with a box-shaped body, rear paper tray, front output tray, top lid, and a control panel on the upper front surface."
+    },
+    {
+      "object_id": "OW073",
+      "category": "Electronics",
+      "complexity": "medium",
+      "description": "A portable radio with a rectangular body, front speaker grille, tuning knob, volume knob, telescoping antenna, and a carrying handle across the top."
+    },
+    {
+      "object_id": "OW074",
+      "category": "Electronics",
+      "complexity": "medium",
+      "description": "A security camera with a cylindrical camera housing attached to an adjustable swivel joint on a wall-mounting base."
+    },
+    {
+      "object_id": "OW075",
+      "category": "Electronics",
+      "complexity": "complex",
+      "description": "A desktop PC setup with a monitor on a stand, separate keyboard, mouse, rectangular computer tower, and two external speakers positioned on either side of the monitor."
+    },
+    {
+      "object_id": "OW076",
+      "category": "Electronics",
+      "complexity": "complex",
+      "description": "A foldable smartphone with two thin rectangular halves joined by a vertical hinge, a flexible inner display spanning both halves, and a camera module on the rear half."
+    },
+    {
+      "object_id": "OW077",
+      "category": "Electronics",
+      "complexity": "complex",
+      "description": "A robotic pan-tilt camera with a fixed base, rotating vertical yoke, tilting camera body inside the yoke, front lens assembly, and a small antenna at the rear."
+    },
+    {
+      "object_id": "OW078",
+      "category": "Electronics",
+      "complexity": "complex",
+      "description": "A 3D printer with a rectangular base, two vertical frame columns, a top crossbar, a horizontal moving gantry, print head carriage, and a flat build plate below."
+    },
+    {
+      "object_id": "OW079",
+      "category": "Electronics",
+      "complexity": "complex",
+      "description": "A rack-mounted network switch with a rectangular chassis, two side mounting ears, a dense row of front Ethernet ports, and two rear cooling fan modules."
+    },
+    {
+      "object_id": "OW080",
+      "category": "Electronics",
+      "complexity": "complex",
+      "description": "A home theater projector with a rectangular main body, large front lens barrel, two adjustable front feet, a rear connection panel, and a hinged top access cover."
+    },
+    {
+      "object_id": "OW081",
+      "category": "Appliances",
+      "complexity": "simple",
+      "description": "A table fan with a circular fan cage, three blades inside it, a central motor housing, a short vertical neck, and a round base."
+    },
+    {
+      "object_id": "OW082",
+      "category": "Appliances",
+      "complexity": "simple",
+      "description": "An electric kettle with a rounded container body, top lid, side handle, short spout, and a separate circular power base underneath."
+    },
+    {
+      "object_id": "OW083",
+      "category": "Appliances",
+      "complexity": "simple",
+      "description": "A toaster with a rectangular body, two bread slots on top, a side lever, and a browning control knob."
+    },
+    {
+      "object_id": "OW084",
+      "category": "Appliances",
+      "complexity": "simple",
+      "description": "A desk lamp with a weighted base, one vertical stem, an angled arm, and a dome-shaped lamp shade at the end."
+    },
+    {
+      "object_id": "OW085",
+      "category": "Appliances",
+      "complexity": "simple",
+      "description": "A basic rice cooker with a cylindrical outer body, removable top lid, two side handles, and a small control panel on the front."
+    },
+    {
+      "object_id": "OW086",
+      "category": "Appliances",
+      "complexity": "medium",
+      "description": "A microwave oven with a rectangular cabinet, large hinged front door, window in the door, side control panel, and a turntable inside the cavity."
+    },
+    {
+      "object_id": "OW087",
+      "category": "Appliances",
+      "complexity": "medium",
+      "description": "A blender with a motor base, clear pitcher seated on top, handle on the pitcher, removable lid, and blade assembly at the bottom of the pitcher."
+    },
+    {
+      "object_id": "OW088",
+      "category": "Appliances",
+      "complexity": "medium",
+      "description": "A vacuum cleaner with a wheeled canister body, flexible hose, rigid extension tube, floor cleaning head, and a top carrying handle."
+    },
+    {
+      "object_id": "OW089",
+      "category": "Appliances",
+      "complexity": "medium",
+      "description": "A pedestal fan with a wide circular fan cage, blade assembly, rear motor housing, adjustable vertical pole, and heavy floor base."
+    },
+    {
+      "object_id": "OW090",
+      "category": "Appliances",
+      "complexity": "medium",
+      "description": "A coffee maker with a lower machine body, water reservoir at the rear, filter basket near the top, glass carafe beneath it, and a warming plate at the bottom."
+    },
+    {
+      "object_id": "OW091",
+      "category": "Appliances",
+      "complexity": "medium",
+      "description": "A clothes iron with a flat soleplate, arched handle above the body, water tank, temperature dial, and power cord attached at the rear."
+    },
+    {
+      "object_id": "OW092",
+      "category": "Appliances",
+      "complexity": "medium",
+      "description": "A countertop mixer with a heavy base, vertical support column, hinged motor head, mixing attachment hanging from the head, and a bowl locked into the base."
+    },
+    {
+      "object_id": "OW093",
+      "category": "Appliances",
+      "complexity": "medium",
+      "description": "A compact air purifier with a tall rectangular housing, intake grille on the lower sides, outlet grille on top, and a small control panel near the top edge."
+    },
+    {
+      "object_id": "OW094",
+      "category": "Appliances",
+      "complexity": "medium",
+      "description": "A portable heater with a rectangular body, front grille, two feet underneath, top carrying handle, and two control knobs on one side."
+    },
+    {
+      "object_id": "OW095",
+      "category": "Appliances",
+      "complexity": "complex",
+      "description": "A front-loading washing machine with a large cabinet, circular hinged door, inner drum, detergent drawer, top control panel, and four adjustable feet."
+    },
+    {
+      "object_id": "OW096",
+      "category": "Appliances",
+      "complexity": "complex",
+      "description": "A refrigerator with a tall cabinet split into an upper refrigerator door and lower freezer door, each with a long vertical handle, plus internal shelves and door bins."
+    },
+    {
+      "object_id": "OW097",
+      "category": "Appliances",
+      "complexity": "complex",
+      "description": "A gas range with a box-shaped oven body, hinged front oven door, four burner assemblies on the top surface, rear control panel, and four control knobs."
+    },
+    {
+      "object_id": "OW098",
+      "category": "Appliances",
+      "complexity": "complex",
+      "description": "A robotic vacuum with a low circular chassis, two driven side wheels, a small caster, rotating side brush, central roller brush underneath, and a raised sensor turret."
+    },
+    {
+      "object_id": "OW099",
+      "category": "Appliances",
+      "complexity": "complex",
+      "description": "A window air conditioner with a rectangular housing, front intake grille, adjustable outlet louvers, side mounting panels, and a rear condenser section."
+    },
+    {
+      "object_id": "OW100",
+      "category": "Appliances",
+      "complexity": "complex",
+      "description": "A dishwasher with a tall rectangular cabinet, large hinged front door, pull handle, upper and lower dish racks inside, and a spray arm mounted beneath each rack."
+    },
+    {
+      "object_id": "OW101",
+      "category": "MechanicalComposite",
+      "complexity": "simple",
+      "description": "A door hinge assembly with two flat rectangular leaves joined along one edge by a cylindrical pin running through alternating hinge knuckles."
+    },
+    {
+      "object_id": "OW102",
+      "category": "MechanicalComposite",
+      "complexity": "simple",
+      "description": "A caster wheel unit with a mounting plate, vertical swivel bracket, fork-shaped wheel holder, axle, and one wheel between the fork arms."
+    },
+    {
+      "object_id": "OW103",
+      "category": "MechanicalComposite",
+      "complexity": "simple",
+      "description": "A pulley block with a U-shaped outer frame, one grooved wheel rotating on a central axle, and a hook attached to the top of the frame."
+    },
+    {
+      "object_id": "OW104",
+      "category": "MechanicalComposite",
+      "complexity": "simple",
+      "description": "A clamp mechanism with a fixed jaw, sliding jaw, threaded screw shaft, and a T-shaped turning handle through the screw end."
+    },
+    {
+      "object_id": "OW105",
+      "category": "MechanicalComposite",
+      "complexity": "simple",
+      "description": "A spring-loaded latch with a rectangular housing, sliding bolt, compression spring behind the bolt, and a small operating lever on top."
+    },
+    {
+      "object_id": "OW106",
+      "category": "MechanicalComposite",
+      "complexity": "medium",
+      "description": "A four-bar linkage made from a fixed base link, two side links connected by pivots, and a top coupler link joining the moving side links."
+    },
+    {
+      "object_id": "OW107",
+      "category": "MechanicalComposite",
+      "complexity": "medium",
+      "description": "A scissor jack with a bottom base, top saddle, four crossed lifting arms connected by pivots, and a horizontal lead screw passing through the center."
+    },
+    {
+      "object_id": "OW108",
+      "category": "MechanicalComposite",
+      "complexity": "medium",
+      "description": "A manual crank mechanism with a fixed bearing block, rotating crank disk, offset crank pin, connecting rod, and a sliding block guided along a straight rail."
+    },
+    {
+      "object_id": "OW109",
+      "category": "MechanicalComposite",
+      "complexity": "medium",
+      "description": "A belt drive with two separated pulleys mounted on parallel shafts and a continuous belt loop wrapped around both pulleys."
+    },
+    {
+      "object_id": "OW110",
+      "category": "MechanicalComposite",
+      "complexity": "medium",
+      "description": "A gear pair with a large spur gear and a smaller spur gear mounted on separate parallel shafts so their teeth mesh along one side."
+    },
+    {
+      "object_id": "OW111",
+      "category": "MechanicalComposite",
+      "complexity": "medium",
+      "description": "A telescoping support made from a wide outer tube, narrower inner tube sliding inside it, a locking collar around the opening, and a flat mounting foot at the bottom."
+    },
+    {
+      "object_id": "OW112",
+      "category": "MechanicalComposite",
+      "complexity": "medium",
+      "description": "A drawer slide mechanism with an outer rail fixed to a frame, a middle sliding rail, and an inner rail attached to a rectangular drawer box."
+    },
+    {
+      "object_id": "OW113",
+      "category": "MechanicalComposite",
+      "complexity": "medium",
+      "description": "A simple robotic gripper with a central body, two opposing finger links, two small pivot joints, and a compact actuator housing behind the fingers."
+    },
+    {
+      "object_id": "OW114",
+      "category": "MechanicalComposite",
+      "complexity": "medium",
+      "description": "A valve assembly with a cylindrical body, inlet pipe, outlet pipe, rotating stem, round handwheel on top, and an internal gate connected to the stem."
+    },
+    {
+      "object_id": "OW115",
+      "category": "MechanicalComposite",
+      "complexity": "complex",
+      "description": "A compact robot arm with a fixed base, rotating shoulder joint, upper arm link, elbow joint, forearm link, wrist joint, and two-finger gripper."
+    },
+    {
+      "object_id": "OW116",
+      "category": "MechanicalComposite",
+      "complexity": "complex",
+      "description": "A folding ladder with two long ladder sections connected at their top ends by a pair of hinges, with evenly spaced rungs between the side rails of each section."
+    },
+    {
+      "object_id": "OW117",
+      "category": "MechanicalComposite",
+      "complexity": "complex",
+      "description": "A bicycle suspension fork with a crown, central steering tube, two outer fork legs, two inner sliding stanchions, and a wheel axle connecting the lower ends."
+    },
+    {
+      "object_id": "OW118",
+      "category": "MechanicalComposite",
+      "complexity": "complex",
+      "description": "A small piston engine model with a cylinder block, piston inside the cylinder, connecting rod, crankshaft, flywheel, and a vertical valve mechanism above the cylinder."
+    },
+    {
+      "object_id": "OW119",
+      "category": "MechanicalComposite",
+      "complexity": "complex",
+      "description": "A differential-like gear assembly with an outer carrier, two opposing side gears, two smaller bevel gears mounted inside the carrier, and input and output shafts."
+    },
+    {
+      "object_id": "OW120",
+      "category": "MechanicalComposite",
+      "complexity": "complex",
+      "description": "A folding crane arm with a rotating base, first boom segment, elbow hinge, second boom segment, hydraulic cylinder, piston rod, and a hook hanging from the boom tip."
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+backbone,object_id,category,base_structure_id,complexity,paraphrase_id,paraphrase_style,schema_valid,attempt_count,part_instance_precision,part_instance_recall,part_instance_f1,type_count_accuracy,connection_precision,connection_recall,connection_f1,root_correct,exact_inventory,exact_connections,exact_structure,missing_part_instances,unsupported_part_instances,missing_connections,unsupported_connections,gt_part_instances,pred_part_instances,gt_connections,pred_connections,gt_root_name,pred_root_name
+deepseek,E7_FUR01_P1,Furniture,FUR01,simple,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,seat,seat
+deepseek,E7_FUR01_P2,Furniture,FUR01,simple,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,seat,seat
+deepseek,E7_FUR01_P3,Furniture,FUR01,simple,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,seat,seat
+deepseek,E7_FUR02_P1,Furniture,FUR02,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,tabletop,tabletop
+deepseek,E7_FUR02_P2,Furniture,FUR02,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,tabletop,tabletop
+deepseek,E7_FUR02_P3,Furniture,FUR02,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,tabletop,tabletop
+deepseek,E7_FUR03_P1,Furniture,FUR03,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,back panel,back panel
+deepseek,E7_FUR03_P2,Furniture,FUR03,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,back panel,back panel
+deepseek,E7_FUR03_P3,Furniture,FUR03,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,back panel,back panel
+deepseek,E7_FUR04_P1,Furniture,FUR04,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,cabinet body,cabinet body
+deepseek,E7_FUR04_P2,Furniture,FUR04,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,cabinet body,cabinet body
+deepseek,E7_FUR04_P3,Furniture,FUR04,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,cabinet body,cabinet body
+deepseek,E7_FUR05_P1,Furniture,FUR05,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,11,11,10,10,bed frame,bed frame
+deepseek,E7_FUR05_P2,Furniture,FUR05,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,11,11,10,10,bed frame,bed frame
+deepseek,E7_FUR05_P3,Furniture,FUR05,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,11,11,10,10,bed frame,bed frame
+deepseek,E7_VEH01_P1,Vehicles,VEH01,simple,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,deck,deck
+deepseek,E7_VEH01_P2,Vehicles,VEH01,simple,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,deck,deck
+deepseek,E7_VEH01_P3,Vehicles,VEH01,simple,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,deck,deck
+deepseek,E7_VEH02_P1,Vehicles,VEH02,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,frame,frame
+deepseek,E7_VEH02_P2,Vehicles,VEH02,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,frame,frame
+deepseek,E7_VEH02_P3,Vehicles,VEH02,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,frame,frame
+deepseek,E7_VEH03_P1,Vehicles,VEH03,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,10,10,9,9,body shell,body shell
+deepseek,E7_VEH03_P2,Vehicles,VEH03,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,10,10,9,9,body shell,body shell
+deepseek,E7_VEH03_P3,Vehicles,VEH03,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,10,10,9,9,body shell,body shell
+deepseek,E7_VEH04_P1,Vehicles,VEH04,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,chassis,chassis
+deepseek,E7_VEH04_P2,Vehicles,VEH04,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,chassis,chassis
+deepseek,E7_VEH04_P3,Vehicles,VEH04,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,chassis,chassis
+deepseek,E7_VEH05_P1,Vehicles,VEH05,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,11,11,10,10,fuselage,fuselage
+deepseek,E7_VEH05_P2,Vehicles,VEH05,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,11,11,10,10,fuselage,fuselage
+deepseek,E7_VEH05_P3,Vehicles,VEH05,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,11,11,10,10,fuselage,fuselage
+deepseek,E7_TOO01_P1,Tools,TOO01,simple,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,handle,handle
+deepseek,E7_TOO01_P2,Tools,TOO01,simple,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,handle,handle
+deepseek,E7_TOO01_P3,Tools,TOO01,simple,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,handle,handle
+deepseek,E7_TOO02_P1,Tools,TOO02,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,pivot,pivot
+deepseek,E7_TOO02_P2,Tools,TOO02,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,pivot,pivot
+deepseek,E7_TOO02_P3,Tools,TOO02,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,pivot,pivot
+deepseek,E7_TOO03_P1,Tools,TOO03,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,6,6,5,5,drill body,drill body
+deepseek,E7_TOO03_P2,Tools,TOO03,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,6,6,5,5,drill body,drill body
+deepseek,E7_TOO03_P3,Tools,TOO03,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,6,6,5,5,drill body,drill body
+deepseek,E7_TOO04_P1,Tools,TOO04,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,base,base
+deepseek,E7_TOO04_P2,Tools,TOO04,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,base,base
+deepseek,E7_TOO04_P3,Tools,TOO04,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,base,base
+deepseek,E7_TOO05_P1,Tools,TOO05,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,chassis,chassis
+deepseek,E7_TOO05_P2,Tools,TOO05,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,chassis,chassis
+deepseek,E7_TOO05_P3,Tools,TOO05,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,chassis,chassis
+deepseek,E7_ELE01_P1,Electronics,ELE01,simple,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,screen,screen
+deepseek,E7_ELE01_P2,Electronics,ELE01,simple,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,screen,screen
+deepseek,E7_ELE01_P3,Electronics,ELE01,simple,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,screen,screen
+deepseek,E7_ELE02_P1,Electronics,ELE02,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,laptop base,laptop base
+deepseek,E7_ELE02_P2,Electronics,ELE02,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,laptop base,laptop base
+deepseek,E7_ELE02_P3,Electronics,ELE02,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,laptop base,laptop base
+deepseek,E7_ELE03_P1,Electronics,ELE03,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,printer body,printer body
+deepseek,E7_ELE03_P2,Electronics,ELE03,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,printer body,printer body
+deepseek,E7_ELE03_P3,Electronics,ELE03,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,printer body,printer body
+deepseek,E7_ELE04_P1,Electronics,ELE04,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,printer base,printer base
+deepseek,E7_ELE04_P2,Electronics,ELE04,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,printer base,printer base
+deepseek,E7_ELE04_P3,Electronics,ELE04,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,printer base,printer base
+deepseek,E7_ELE05_P1,Electronics,ELE05,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,fixed base,fixed base
+deepseek,E7_ELE05_P2,Electronics,ELE05,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,fixed base,fixed base
+deepseek,E7_ELE05_P3,Electronics,ELE05,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,fixed base,fixed base
+deepseek,E7_APP01_P1,Appliances,APP01,simple,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,kettle body,kettle body
+deepseek,E7_APP01_P2,Appliances,APP01,simple,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,kettle body,kettle body
+deepseek,E7_APP01_P3,Appliances,APP01,simple,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,kettle body,kettle body
+deepseek,E7_APP02_P1,Appliances,APP02,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,motor base,motor base
+deepseek,E7_APP02_P2,Appliances,APP02,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,motor base,motor base
+deepseek,E7_APP02_P3,Appliances,APP02,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,motor base,motor base
+deepseek,E7_APP03_P1,Appliances,APP03,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,canister body,canister body
+deepseek,E7_APP03_P2,Appliances,APP03,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,canister body,canister body
+deepseek,E7_APP03_P3,Appliances,APP03,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,canister body,canister body
+deepseek,E7_APP04_P1,Appliances,APP04,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,cabinet,cabinet
+deepseek,E7_APP04_P2,Appliances,APP04,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,cabinet,cabinet
+deepseek,E7_APP04_P3,Appliances,APP04,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,cabinet,cabinet
+deepseek,E7_APP05_P1,Appliances,APP05,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,mixer base,mixer base
+deepseek,E7_APP05_P2,Appliances,APP05,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,mixer base,mixer base
+deepseek,E7_APP05_P3,Appliances,APP05,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,mixer base,mixer base
+deepseek,E7_MEC01_P1,MechanicalComposite,MEC01,simple,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,hinge pin,hinge pin
+deepseek,E7_MEC01_P2,MechanicalComposite,MEC01,simple,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,hinge pin,hinge pin
+deepseek,E7_MEC01_P3,MechanicalComposite,MEC01,simple,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,hinge pin,hinge pin
+deepseek,E7_MEC02_P1,MechanicalComposite,MEC02,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,jack base,jack base
+deepseek,E7_MEC02_P2,MechanicalComposite,MEC02,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,jack base,jack base
+deepseek,E7_MEC02_P3,MechanicalComposite,MEC02,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,jack base,jack base
+deepseek,E7_MEC03_P1,MechanicalComposite,MEC03,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,6,6,5,5,bearing block,bearing block
+deepseek,E7_MEC03_P2,MechanicalComposite,MEC03,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,6,6,5,5,bearing block,bearing block
+deepseek,E7_MEC03_P3,MechanicalComposite,MEC03,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,6,6,5,5,bearing block,bearing block
+deepseek,E7_MEC04_P1,MechanicalComposite,MEC04,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,fixed base,fixed base
+deepseek,E7_MEC04_P2,MechanicalComposite,MEC04,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,fixed base,fixed base
+deepseek,E7_MEC04_P3,MechanicalComposite,MEC04,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,fixed base,fixed base
+deepseek,E7_MEC05_P1,MechanicalComposite,MEC05,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,rotating base,rotating base
+deepseek,E7_MEC05_P2,MechanicalComposite,MEC05,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,rotating base,rotating base
+deepseek,E7_MEC05_P3,MechanicalComposite,MEC05,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,rotating base,rotating base
+qwen3_7_plus,E7_FUR01_P1,Furniture,FUR01,simple,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,seat,seat
+qwen3_7_plus,E7_FUR01_P2,Furniture,FUR01,simple,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,seat,seat
+qwen3_7_plus,E7_FUR01_P3,Furniture,FUR01,simple,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,seat,seat
+qwen3_7_plus,E7_FUR02_P1,Furniture,FUR02,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,tabletop,tabletop
+qwen3_7_plus,E7_FUR02_P2,Furniture,FUR02,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,tabletop,tabletop
+qwen3_7_plus,E7_FUR02_P3,Furniture,FUR02,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,tabletop,tabletop
+qwen3_7_plus,E7_FUR03_P1,Furniture,FUR03,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,back panel,back panel
+qwen3_7_plus,E7_FUR03_P2,Furniture,FUR03,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,back panel,back panel
+qwen3_7_plus,E7_FUR03_P3,Furniture,FUR03,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,back panel,back panel
+qwen3_7_plus,E7_FUR04_P1,Furniture,FUR04,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,cabinet body,cabinet body
+qwen3_7_plus,E7_FUR04_P2,Furniture,FUR04,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,cabinet body,cabinet body
+qwen3_7_plus,E7_FUR04_P3,Furniture,FUR04,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,cabinet body,cabinet body
+qwen3_7_plus,E7_FUR05_P1,Furniture,FUR05,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,11,11,10,10,bed frame,bed frame
+qwen3_7_plus,E7_FUR05_P2,Furniture,FUR05,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,11,11,10,10,bed frame,bed frame
+qwen3_7_plus,E7_FUR05_P3,Furniture,FUR05,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,11,11,10,10,bed frame,bed frame
+qwen3_7_plus,E7_VEH01_P1,Vehicles,VEH01,simple,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,deck,deck
+qwen3_7_plus,E7_VEH01_P2,Vehicles,VEH01,simple,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,deck,deck
+qwen3_7_plus,E7_VEH01_P3,Vehicles,VEH01,simple,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,deck,deck
+qwen3_7_plus,E7_VEH02_P1,Vehicles,VEH02,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,frame,frame
+qwen3_7_plus,E7_VEH02_P2,Vehicles,VEH02,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,frame,frame
+qwen3_7_plus,E7_VEH02_P3,Vehicles,VEH02,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,frame,frame
+qwen3_7_plus,E7_VEH03_P1,Vehicles,VEH03,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,10,10,9,9,body shell,body shell
+qwen3_7_plus,E7_VEH03_P2,Vehicles,VEH03,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,10,10,9,9,body shell,body shell
+qwen3_7_plus,E7_VEH03_P3,Vehicles,VEH03,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,10,10,9,9,body shell,body shell
+qwen3_7_plus,E7_VEH04_P1,Vehicles,VEH04,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,chassis,chassis
+qwen3_7_plus,E7_VEH04_P2,Vehicles,VEH04,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,chassis,chassis
+qwen3_7_plus,E7_VEH04_P3,Vehicles,VEH04,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,chassis,chassis
+qwen3_7_plus,E7_VEH05_P1,Vehicles,VEH05,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,11,11,10,10,fuselage,fuselage
+qwen3_7_plus,E7_VEH05_P2,Vehicles,VEH05,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,11,11,10,10,fuselage,fuselage
+qwen3_7_plus,E7_VEH05_P3,Vehicles,VEH05,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,11,11,10,10,fuselage,fuselage
+qwen3_7_plus,E7_TOO01_P1,Tools,TOO01,simple,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,handle,handle
+qwen3_7_plus,E7_TOO01_P2,Tools,TOO01,simple,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,handle,handle
+qwen3_7_plus,E7_TOO01_P3,Tools,TOO01,simple,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,handle,handle
+qwen3_7_plus,E7_TOO02_P1,Tools,TOO02,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,pivot,pivot
+qwen3_7_plus,E7_TOO02_P2,Tools,TOO02,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,pivot,pivot
+qwen3_7_plus,E7_TOO02_P3,Tools,TOO02,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,pivot,pivot
+qwen3_7_plus,E7_TOO03_P1,Tools,TOO03,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,6,6,5,5,drill body,drill body
+qwen3_7_plus,E7_TOO03_P2,Tools,TOO03,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,6,6,5,5,drill body,drill body
+qwen3_7_plus,E7_TOO03_P3,Tools,TOO03,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,6,6,5,5,drill body,drill body
+qwen3_7_plus,E7_TOO04_P1,Tools,TOO04,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,base,base
+qwen3_7_plus,E7_TOO04_P2,Tools,TOO04,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,base,base
+qwen3_7_plus,E7_TOO04_P3,Tools,TOO04,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,base,base
+qwen3_7_plus,E7_TOO05_P1,Tools,TOO05,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,chassis,chassis
+qwen3_7_plus,E7_TOO05_P2,Tools,TOO05,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,chassis,chassis
+qwen3_7_plus,E7_TOO05_P3,Tools,TOO05,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,chassis,chassis
+qwen3_7_plus,E7_ELE01_P1,Electronics,ELE01,simple,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,screen,screen
+qwen3_7_plus,E7_ELE01_P2,Electronics,ELE01,simple,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,screen,screen
+qwen3_7_plus,E7_ELE01_P3,Electronics,ELE01,simple,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,screen,screen
+qwen3_7_plus,E7_ELE02_P1,Electronics,ELE02,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,laptop base,laptop base
+qwen3_7_plus,E7_ELE02_P2,Electronics,ELE02,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,laptop base,laptop base
+qwen3_7_plus,E7_ELE02_P3,Electronics,ELE02,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,laptop base,laptop base
+qwen3_7_plus,E7_ELE03_P1,Electronics,ELE03,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,printer body,printer body
+qwen3_7_plus,E7_ELE03_P2,Electronics,ELE03,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,printer body,printer body
+qwen3_7_plus,E7_ELE03_P3,Electronics,ELE03,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,printer body,printer body
+qwen3_7_plus,E7_ELE04_P1,Electronics,ELE04,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,printer base,printer base
+qwen3_7_plus,E7_ELE04_P2,Electronics,ELE04,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,printer base,printer base
+qwen3_7_plus,E7_ELE04_P3,Electronics,ELE04,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,8,8,7,7,printer base,printer base
+qwen3_7_plus,E7_ELE05_P1,Electronics,ELE05,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,fixed base,fixed base
+qwen3_7_plus,E7_ELE05_P2,Electronics,ELE05,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,fixed base,fixed base
+qwen3_7_plus,E7_ELE05_P3,Electronics,ELE05,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,fixed base,fixed base
+qwen3_7_plus,E7_APP01_P1,Appliances,APP01,simple,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,kettle body,kettle body
+qwen3_7_plus,E7_APP01_P2,Appliances,APP01,simple,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,kettle body,kettle body
+qwen3_7_plus,E7_APP01_P3,Appliances,APP01,simple,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,kettle body,kettle body
+qwen3_7_plus,E7_APP02_P1,Appliances,APP02,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,motor base,motor base
+qwen3_7_plus,E7_APP02_P2,Appliances,APP02,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,motor base,motor base
+qwen3_7_plus,E7_APP02_P3,Appliances,APP02,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,motor base,motor base
+qwen3_7_plus,E7_APP03_P1,Appliances,APP03,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,canister body,canister body
+qwen3_7_plus,E7_APP03_P2,Appliances,APP03,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,canister body,canister body
+qwen3_7_plus,E7_APP03_P3,Appliances,APP03,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,canister body,canister body
+qwen3_7_plus,E7_APP04_P1,Appliances,APP04,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,cabinet,cabinet
+qwen3_7_plus,E7_APP04_P2,Appliances,APP04,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,cabinet,cabinet
+qwen3_7_plus,E7_APP04_P3,Appliances,APP04,complex,3,assembly_instruction,1,1,0.5555555555555556,0.5555555555555556,0.5555555555555556,0.7142857142857143,0.5,0.5,0.5,1,0,0,0,4,4,4,4,9,9,8,8,cabinet,cabinet
+qwen3_7_plus,E7_APP05_P1,Appliances,APP05,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,mixer base,mixer base
+qwen3_7_plus,E7_APP05_P2,Appliances,APP05,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,mixer base,mixer base
+qwen3_7_plus,E7_APP05_P3,Appliances,APP05,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,5,5,4,4,mixer base,mixer base
+qwen3_7_plus,E7_MEC01_P1,MechanicalComposite,MEC01,simple,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,hinge pin,hinge pin
+qwen3_7_plus,E7_MEC01_P2,MechanicalComposite,MEC01,simple,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,hinge pin,hinge pin
+qwen3_7_plus,E7_MEC01_P3,MechanicalComposite,MEC01,simple,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,3,3,2,2,hinge pin,hinge pin
+qwen3_7_plus,E7_MEC02_P1,MechanicalComposite,MEC02,medium,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,jack base,jack base
+qwen3_7_plus,E7_MEC02_P2,MechanicalComposite,MEC02,medium,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,jack base,jack base
+qwen3_7_plus,E7_MEC02_P3,MechanicalComposite,MEC02,medium,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,jack base,jack base
+qwen3_7_plus,E7_MEC03_P1,MechanicalComposite,MEC03,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,6,6,5,5,bearing block,bearing block
+qwen3_7_plus,E7_MEC03_P2,MechanicalComposite,MEC03,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,6,6,5,5,bearing block,bearing block
+qwen3_7_plus,E7_MEC03_P3,MechanicalComposite,MEC03,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,6,6,5,5,bearing block,bearing block
+qwen3_7_plus,E7_MEC04_P1,MechanicalComposite,MEC04,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,fixed base,fixed base
+qwen3_7_plus,E7_MEC04_P2,MechanicalComposite,MEC04,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,fixed base,fixed base
+qwen3_7_plus,E7_MEC04_P3,MechanicalComposite,MEC04,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,9,9,8,8,fixed base,fixed base
+qwen3_7_plus,E7_MEC05_P1,MechanicalComposite,MEC05,complex,1,inventory_first,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,rotating base,rotating base
+qwen3_7_plus,E7_MEC05_P2,MechanicalComposite,MEC05,complex,2,integrated_relations,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,rotating base,rotating base
+qwen3_7_plus,E7_MEC05_P3,MechanicalComposite,MEC05,complex,3,assembly_instruction,1,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,1,1,0,0,0,0,7,7,6,6,rotating base,rotating base
